@@ -3,7 +3,7 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { Handle, Position } from "reactflow";
 import Editor from "react-simple-code-editor";
-import { highlight, languages } from "prismjs/components/prism-core";
+import { highlight, languages } from 'prismjs';
 import "prismjs/components/prism-sql";
 import "prismjs/themes/prism.css"; // You can change this theme if needed
 import { Input } from "@/components/ui/input";
